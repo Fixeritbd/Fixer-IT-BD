@@ -1,0 +1,107 @@
+.service-part {
+  background: url("../../../public/Assets/images/service/service-bg.png") no-repeat center / cover;
+  padding: 100px 0px;
+}
+
+.service-heading {
+  color: #ffff;
+}
+
+.service-heading h3 {
+  /* background: linear-gradient(to left, #5b65fc 30%, #d65787 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  /* background: #5b65fc; */
+  /* background: -webkit-linear-gradient(to right, #5b65fc 0%, #d65787 1000%); */
+  background: linear-gradient(to right, #5b65fc 0%, #d65787 25%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.service-heading h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.service-heading p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 570px;
+}
+
+.service-item {
+  margin-top: 50px;
+  color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  transition: all linear 0.5s;
+}
+
+.service-item .service-top {
+  display: flex;
+}
+
+.service-item .service-top img {
+  width: 70px;
+  height: 70px;
+}
+
+.service-item .service-top h2 {
+  margin: 25px 0px 0px 10px;
+  font-size: 27px;
+  font-weight: 500;
+  transition: all linear 0.5s;
+}
+
+.service-item .service-bottom {
+  padding-left: 80px;
+}
+
+.service-item .service-bottom p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #a7a7a9;
+}
+
+.service-item .service-bottom .btn {
+  position: relative;
+  color: #fff;
+  margin-left: 55px;
+  transition: all linear 0.5s;
+}
+
+.service-item .service-bottom .btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 2px;
+  background: #fff;
+  margin-left: -55px;
+  transition: all linear 0.5s;
+}
+
+.service-item:hover {
+  background-color: #28282f;
+  box-shadow: 2px 2px 5px 4px rgba(231, 231, 231, 0.75);
+  -webkit-box-shadow: 0px 0px 4px 2px rgb(231 231 231 / 30%);
+  -moz-box-shadow: 2px 2px 5px 4px rgba(231, 231, 231, 0.75);
+}
+
+.service-item:hover h2 {
+  color: #5b65fc;
+}
+
+.service-item:hover .service-bottom .btn {
+  color: #d65787;
+}
+
+.service-item:hover .service-bottom .btn::before {
+  background: #d65787;
+}

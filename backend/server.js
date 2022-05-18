@@ -9,6 +9,7 @@ import logoData from "./logoData.js";
 import serviceRoute from "./Route/serviceRoute.js";
 import aboutRouter from "./Route/AboutRouter.js";
 import bannerRouter from "./Route/BannerRouter.js";
+import featuredRouter from './Route/featuredRouter.js'
 
 app.use(cors());
 app.use(express.json());
@@ -25,6 +26,7 @@ mongoose
 app.use("/service", serviceRoute);
 app.use("/about", aboutRouter);
 app.use("/banner", bannerRouter);
+app.use("/featured", featuredRouter);
 
 app.get("/", function (req, res) {
   res.send("Hello World");

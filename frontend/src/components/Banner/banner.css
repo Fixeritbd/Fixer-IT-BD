@@ -1,11 +1,74 @@
-/* .shape_main {
-    position: relative;
+/* .subHeading{
+    padding: ;
 } */
+.banner_main {
+    position: relative;
+}
+.banner_text {
+    padding: 348px 0 207px;
+}
 
-.shape_main img {
+.banner_text h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    background: linear-gradient(to right, #5b65fc 0%, #d65787 25%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.banner_text h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 68px;
+    color: #27272e;
+    width: 640px;
+}
+
+.banner_text h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+.banner_img img {
+    padding: 80px 0 70px;
+    width: 700px;
+}
+.socialIconMain {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 26%;
+    background: #7432ff;
+    width: 100px;
+    height: 500px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 0px 304px 304px 0px;
+}
+.socialIcon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socialIcon a {
+    color: #fff;
+    font-size: 22px;
+    margin: 20px 0px;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+.socialIcon a:hover {
+    transform: scale(2);
+    color: #d65787;
+}
+
+.bannerShape img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     z-index: -1;
 }

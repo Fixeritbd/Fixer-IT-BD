@@ -24,7 +24,10 @@ function NavBar() {
             <Navbar collapseOnSelect expand="lg" className='navbarmain'>
                 <Container>
                     <Navbar.Brand href="#home">
-                        <img src={logo.img} alt={logo.name} width={80} />
+                        <img src={logo.img} alt={logo.name} width={90} />
+                        <div className="shape_main">
+                            <img src="assets/images/banner/bubble-1.png" alt="bubble-1.png" />
+                        </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

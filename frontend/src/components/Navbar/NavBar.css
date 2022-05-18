@@ -9,7 +9,15 @@
     flex-wrap: inherit;
     align-items: center;
 }
-/* raihan */
+
+.shape_main img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 26%;
+    z-index: -1;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #000;
 }

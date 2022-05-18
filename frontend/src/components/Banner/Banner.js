@@ -2,13 +2,12 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./banner.css";
-import bannerImg from './banner.png'
 import bannerShape from './bannerShape.png'
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaBehance } from 'react-icons/fa';
 
 
 export default function Banner() {
-  let [banner, setBanner] = useState({});
+  let [banner, setBanner] = useState([]);
   useEffect(() => {
     let logodetails = async () => {
       let { data } = await axios.get("http://localhost:8000/banner");
@@ -31,21 +30,23 @@ export default function Banner() {
 
         </div>
         <Container>
-          <Row>
-            <Col lg={6}>
-              <div className="banner_text">
-                <h3 className="subHeading">WE ARE FIXER IT</h3>
-                <h1 className="heading">WE CREATE EVERYTHING
-                  FOR YOUR SERVICE.</h1>
-                <Button className="button bannerBtn ">Get Started</Button>
-              </div>
-            </Col>
-            <Col lg={6}>
-              <div className="banner_img">
-                <img src={bannerImg} alt='banner-img' />
-              </div>
-            </Col>
-          </Row>
+          {banner.map(item => (
+            <Row>
+              <Col lg={6}>
+                <div className="banner_text">
+                  <h3 className="subHeading">{item.subHeading}</h3>
+                  <h1 className="heading">{item.heading}</h1>
+                  <Button className="button bannerBtn ">{item.button}</Button>
+                </div>
+              </Col>
+              <Col lg={6}>
+                <div className="banner_img">
+                  <img src={item.img} alt='banner-img' />
+                </div>
+              </Col>
+            </Row>
+          ))}
+
         </Container>
 
         <div className="bannerShape">

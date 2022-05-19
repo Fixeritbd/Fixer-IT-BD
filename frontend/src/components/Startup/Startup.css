@@ -1,0 +1,68 @@
+.startup-part {
+  background: url("../../../public/Assets/images/startup/startup-bg.png") no-repeat center / cover;
+  padding: 100px 0px;
+  width: 100%;
+}
+
+.startup-heading {
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.startup-heading h3 {
+  background: linear-gradient(to right, #5b65fc 0%, #d65787 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.startup-heading h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+
+.startup-heading p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 570px;
+  text-align: center;
+}
+
+.startup-item {
+  color: #fff;
+  margin-top: 75px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  transition: all linear 0.5s;
+}
+
+.startup-item h2 {
+  font-size: 90px;
+  font-weight: 400;
+  color: #5b65fc;
+  padding: 25px 0;
+  transition: all linear 0.5s;
+}
+
+.startup-item h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.startup-item:hover {
+  background-color: #28282f;
+  box-shadow: 2px 2px 5px 4px rgba(231, 231, 231, 0.75);
+  -webkit-box-shadow: 0px 0px 4px 2px rgb(231 231 231 / 30%);
+  -moz-box-shadow: 2px 2px 5px 4px rgba(231, 231, 231, 0.75);
+}
+
+.startup-item:hover h2 {
+  color: #d65787;
+}

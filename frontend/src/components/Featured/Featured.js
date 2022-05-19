@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Row, Col, Carousel, Button } from 'react-bootstrap'
-import featuredImg from './featured.png'
 import axios from 'axios'
 import './Featured.css'
 

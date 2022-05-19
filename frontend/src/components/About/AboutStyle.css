@@ -1,0 +1,42 @@
+.about-part {
+  background: url(../../../public/Assets/images/about/about-bg.png) no-repeat center / cover;
+  padding: 100px 0;
+}
+.about-part .about-img img {
+  width: 100%;
+}
+.about-part .about-text .about-heading h3 {
+  font-size: 30px;
+  font-weight: 500;
+  background: linear-gradient(to right, #5b65fc 0%, #d65787 25%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.about-part .about-text .about-heading h2 {
+  font-size: 50px;
+  color: #27272e;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.about-part .about-text .about-details p {
+  font-size: 18px;
+  color: #27272e;
+  font-weight: 400;
+  width: 655px;
+}
+.button {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  background: #7432ff;
+  border: 1px solid #7432ff;
+  padding: 10px 25px;
+  margin-top: 30px;
+  transition: 0.4s;
+}
+.button:hover {
+  background: #7432ff;
+  border: 1px solid #7432ff;
+  box-shadow: 2px 5px 7px 2px rgb(89 87 232 / 50%);
+}

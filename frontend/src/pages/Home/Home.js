@@ -4,7 +4,8 @@ import Banner from "../../components/Banner/Banner";
 import Featured from "../../components/Featured/Featured";
 import Service from "../../components/Service/Service";
 import Startup from "../../components/Startup/Startup";
-import VideoPart from "../../components/Video Part/Video"
+import Testimonial from "../../components/Testimonial/Testimonial";
+import VideoPart from "../../components/Video Part/Video";
 
 function Home() {
   return (
@@ -14,7 +15,8 @@ function Home() {
       <Service />
       <Featured />
       <Startup />
-    <VideoPart/>
+      <VideoPart />
+      <Testimonial />
     </div>
   );
 }

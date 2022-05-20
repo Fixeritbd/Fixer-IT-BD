@@ -5,6 +5,13 @@ import './Featured.css'
 
 export default function Featured() {
 
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex, e) => {
+        setIndex(selectedIndex);
+    };
+
+
     let [featured, serFeeatured] = useState([]);
     useEffect(() => {
         let featuredDetails = async () => {
@@ -17,7 +24,7 @@ export default function Featured() {
 
     return (
         <Container>
-            <Carousel variant="dark">
+            <Carousel variant="dark" activeIndex={index} onSelect={handleSelect}>
 
                 {featured.map(item => (
                     <Carousel.Item>

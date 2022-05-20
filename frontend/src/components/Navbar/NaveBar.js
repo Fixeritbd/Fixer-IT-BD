@@ -24,7 +24,7 @@ function NavBar() {
             <Navbar collapseOnSelect expand="lg" className='navbarmain'>
                 <Container>
                     <Navbar.Brand href="#home">
-                        <img src={logo.img} alt={logo.name} width={90} />
+                        <img src={logo.img} alt={logo.name} width={120} />
                         <div className="shape_main">
                             <img src="assets/images/banner/bubble-1.png" alt="bubble-1.png" />
                         </div>

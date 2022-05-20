@@ -34,7 +34,7 @@
 .socialIconMain {
     position: absolute;
     background: #7432ff;
-    width: 100px;
+    width: 58px;
     height: 500px;
     top: 50%;
     transform: translateY(-50%);
@@ -68,5 +68,5 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-    width: 830px;
+    width: 800px;
 }

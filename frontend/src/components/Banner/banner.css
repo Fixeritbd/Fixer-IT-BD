@@ -35,7 +35,7 @@
     position: absolute;
     background: #7432ff;
     width: 58px;
-    height: 500px;
+    height: 368px;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 0px 304px 304px 0px;
@@ -50,14 +50,13 @@
 .socialIcon a {
     color: #fff;
     font-size: 22px;
-    margin: 20px 0px;
+    margin: 15px 0px;
     transition: all linear 0.5s;
     -webkit-transition: all linear 0.5s;
     -moz-transition: all linear 0.5s;
     -ms-transition: all linear 0.5s;
     -o-transition: all linear 0.5s;
 }
-
 .socialIcon a:hover {
     transform: scale(2);
     color: #d65787;

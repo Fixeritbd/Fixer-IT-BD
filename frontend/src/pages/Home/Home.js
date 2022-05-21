@@ -9,6 +9,7 @@ import Service from "../../components/Service/Service";
 import Startup from "../../components/Startup/Startup";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import VideoPart from "../../components/Video Part/Video";
+import FAQ from "../../components/FAQ/FAQ"
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <Startup />
       <VideoPart />
       <Testimonial />
+      <FAQ/>
       <Blog />
       <Pricing />
       <Testimonial />

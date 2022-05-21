@@ -32,7 +32,7 @@ export default function Featured() {
                             <Col lg={6}>
                                 <div className="featured_text text-left">
                                     <h3 className="subHeading">{item.subHeading}</h3>
-                                    <h1 className="heading">{item.heading}</h1>
+                                    <h2 className="heading">{item.heading}</h2>
                                     <p>{item.para1}</p>
                                     <p className='mt-5'>{item.para2}</p>
 

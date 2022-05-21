@@ -19,9 +19,9 @@ function Home() {
       <Featured />
       <Startup />
       <VideoPart />
+      <Testimonial />
       <Blog />
       <Pricing />
-      <Testimonial />
       <Footer />
     </div>
   );

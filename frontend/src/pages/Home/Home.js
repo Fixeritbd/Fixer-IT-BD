@@ -1,6 +1,7 @@
 import React from "react";
 import AboutPart from "../../components/About/AboutPart";
 import Banner from "../../components/Banner/Banner";
+import Blog from "../../components/Blog/Blog";
 import Featured from "../../components/Featured/Featured";
 import Service from "../../components/Service/Service";
 import Startup from "../../components/Startup/Startup";
@@ -16,6 +17,7 @@ function Home() {
       <Featured />
       <Startup />
       <VideoPart />
+      <Blog/>
       <Testimonial />
     </div>
   );

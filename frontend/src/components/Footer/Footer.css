@@ -1,0 +1,124 @@
+.footer-part {
+  background: url(../../../public/Assets/images/footer/footer\ bg.png) no-repeat center/cover;
+  padding: 100px 0px 50px;
+}
+
+.footer-part .footer-heading {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.footer-part .footer-heading h3 {
+  background: linear-gradient(to right, #5b65fc 0%, #d65787 32%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.footer-part .footer-heading h2 {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.inpuBtn {
+  display: flex;
+  margin-top: 70px;
+}
+
+.footer-part .footer-heading input {
+  width: 500px;
+  height: 70px;
+  padding-left: 30px;
+  color: #a7a7a7;
+  font-size: 22px;
+  border-radius: 40px;
+  background: #efefef;
+  outline: none;
+  border: none;
+  margin-bottom: 3px;
+}
+
+.footer-part .footer-heading button {
+  outline: none;
+  height: 70px;
+  font-size: 26px;
+  font-weight: 400;
+  border-radius: 40px;
+  width: 200px;
+  background: #5b65fc;
+  color: #fff;
+  border: none;
+  margin-left: -90px;
+}
+
+.fItem p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin: 45px 0;
+}
+
+.footer-icon ul {
+  display: flex;
+}
+
+.footer-icon ul li {
+  margin-right: 15px;
+}
+
+.footer-icon ul li a {
+  width: 50px;
+  height: 50px;
+  background: #5b65fc;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  transition: all linear 0.5s;
+}
+
+.footer-icon ul li a:hover {
+  color: #d65787;
+}
+
+.footer-part .footer-text h3 {
+  color: #5b65fc;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.footer-part .footer-text h3::before {
+  position: absolute;
+  content: "";
+  bottom: -2px;
+  left: 0px;
+  width: 50px;
+  height: 2px;
+  background-color: #5b65fc;
+}
+
+.footer-part .footer-text p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-part .footer-text .icon {
+  color: #5b65fc;
+  margin-right: 10px;
+  transition: all linear 0.5s;
+}
+
+.footer-part .footer-text p:hover .icon {
+  color: #d65787;
+}
+
+.footer-part .copyright {
+  color: white;
+  margin-top: 50px;
+}

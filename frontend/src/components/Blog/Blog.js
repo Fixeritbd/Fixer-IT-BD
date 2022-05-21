@@ -7,22 +7,20 @@ import blogcard from "./blogcircle.png";
 const Blog = () => {
   return (
     <div className="blog">
-      <div className='blog_circle'>
+      <div className="blog_circle">
         <img src={blogcard} alt="" />
       </div>
       <Container>
         <div className="title">
-          <div className="subheading">
-            <h3>OUR BLOG</h3>
-          </div>
+          <h3>OUR BLOG</h3>
+
           <div className="heading">
             <h2>Our latest updates</h2>
           </div>
-          <div className="paragraph ">
+          <div className="paragraph">
             <p>
-              Simply drag and drop photos and videos into your workspace to
-              automatically 
-              add them to your Collab Cloud library.
+              Simply drag and drop photos and videos into your workspace to automatically add them to your
+              Collab Cloud library.
             </p>
           </div>
         </div>

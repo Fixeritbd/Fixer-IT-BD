@@ -5,7 +5,8 @@ import Featured from "../../components/Featured/Featured";
 import Pricing from "../../components/Pricing/Pricing";
 import Service from "../../components/Service/Service";
 import Startup from "../../components/Startup/Startup";
-import VideoPart from "../../components/Video Part/Video"
+import Testimonial from "../../components/Testimonial/Testimonial";
+import VideoPart from "../../components/Video Part/Video";
 
 function Home() {
   return (
@@ -16,7 +17,11 @@ function Home() {
       <Featured />
       <Startup />
       <VideoPart />
+<<<<<<< HEAD
       <Pricing />
+=======
+      <Testimonial />
+>>>>>>> 6e296d09b7639830eb06c956995eb75ad53a9aa6
     </div>
   );
 }

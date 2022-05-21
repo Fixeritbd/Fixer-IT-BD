@@ -1,0 +1,39 @@
+.blog{
+    height:500px;
+    width:100%;
+
+    background-image: url(../../../public/Assets/images/blog/blogcircle.png) ;
+    background-repeat: no-repeat ;
+    background-position: right center ;
+    
+}
+.title{
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+.title .subheading p {
+  font-size: 20px;
+  font-weight: 500;
+  background: linear-gradient(to right, #5b65fc 0%, #d65787 25%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.time{
+  display: flex;
+  justify-content: space-between;
+}
+.btn_marketing{
+  background: #7432ff;
+  padding: 3px 16px;
+  border: none !important;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  border-radius: 30px;
+  
+}

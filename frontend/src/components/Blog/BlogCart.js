@@ -21,7 +21,7 @@ const BlogCart = () => {
               <Button className="btn_marketing">Marketing</Button>
             </div>
             <Card.Title>
-              <h4 className="py-3">Post launch shower initiative forward</h4>
+              <h2 className="py-3">Post launch shower initiative forward</h2>
             </Card.Title>
             <a href="#">Continue Reading <IoMdArrowRoundForward/></a> 
           </Card.Body>

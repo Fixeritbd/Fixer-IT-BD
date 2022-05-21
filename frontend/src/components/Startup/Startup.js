@@ -13,7 +13,6 @@ const Startup = () => {
     };
     startupdata();
   }, []);
-  console.log(data.map((item) => item.couterNumber));
   return (
     <div className="startup-part">
       <Container>

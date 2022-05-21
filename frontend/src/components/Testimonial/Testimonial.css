@@ -1,0 +1,65 @@
+.tesimonial-part {
+  background: url("../../../public/Assets/images/testimonials/testimonial-bg.png") no-repeat center / cover;
+  padding: 100px 0px;
+}
+
+.tesimonial-heading {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tesimonial-heading h3 {
+  background: linear-gradient(to right, #5b65fc 0%, #d65787 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.tesimonial-heading h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+
+.tesimonial-heading p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 570px;
+  text-align: center;
+}
+
+.testi-item {
+  margin-top: 75px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.testi-item .item-img {
+  text-align: center;
+}
+
+.testi-item .para p {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 30px 0px;
+}
+
+.testi-item-bottom {
+  display: flex;
+}
+
+.testi-item-bottom .testi-item-bottom-content {
+  margin-left: 15px;
+}
+
+.testi-item-bottom .testi-item-bottom-content h4 {
+  color: #5b65fc;
+  font-size: 26px;
+  font-weight: 500;
+}

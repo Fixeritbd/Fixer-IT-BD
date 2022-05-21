@@ -28,12 +28,12 @@
 }
 
 .title h3 {
-  background: linear-gradient(to right, #5b65fc 0%, #d65787 83%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
   font-size: 30px;
-  font-weight: 500;
+    font-weight: 500;
+    background: linear-gradient(to right, #5b65fc 45%, #d65787 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .paragraph p {

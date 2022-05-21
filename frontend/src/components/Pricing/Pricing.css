@@ -10,6 +10,7 @@
     font-size: 50px;
     line-height: 59px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .pricingMain p {
     color: #000;

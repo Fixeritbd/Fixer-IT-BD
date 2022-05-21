@@ -1,14 +1,18 @@
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    background-repeat: no-repeat !important;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+
+
+
 .featured_text {
     padding: 100px 0px;
 }
-
-/* .featured_text .subHeading {
-    font-size: 30px;
-    font-weight: 500;
-    background: linear-gradient(to right, #5b65fc 0%, #d65787 25%);
-    -webkit-background-clip: text;
-    background-clip: text !important;
-} */
 
 .featured_text .subHeading {
     font-size: 30px;

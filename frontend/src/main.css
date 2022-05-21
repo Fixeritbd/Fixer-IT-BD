@@ -41,11 +41,11 @@ img {
   vertical-align: middle;
 }
 
-.btn-check:focus + .btn-primary,
+.about-part .btn-check:focus + .btn-primary,
 .btn-primary:focus {
-  color: #fff;
-  background-color: #7432ff;
-  border-color: #7432ff;
+  color: #fff !important;
+  background-color: #7432ff !important;
+  border-color: #7432ff !important;
   box-shadow: none;
 }
 

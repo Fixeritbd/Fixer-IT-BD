@@ -1,0 +1,158 @@
+.pricing-part {
+    background: url("../../../public/Assets/images/pricing/pricingBg.png") no-repeat center / cover;
+    padding: 100px 0px;
+}
+.pricingMain {
+    text-align: center;
+}
+.pricingMain h3 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    margin-bottom: 10px;
+}
+.pricingMain p {
+    color: #000;
+    padding: 0px 281px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.pricingBtnMain {
+    background: #7432ff;
+    padding: 15px 21px;
+    width: 440px;
+    margin: auto;
+    border-radius: 53px;
+    margin-top: 30px;
+}
+
+.pricingBtnMain .pricingBtn {
+    color: #fff;
+    background: transparent;
+    padding: 15px 60px;
+    border-radius: 50px;
+    margin: 0px 6px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+}
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+    color: #7432ff;
+    background-color: #ffffff !important;
+    border-color: #7432ff;
+    box-shadow: none;
+}
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+    color: #7432ff !important;
+    background-color: #ffffff !important;
+    border-color: #7432ff;
+    box-shadow: none;
+}
+.pricing-main {
+    margin-top: 80px;
+}
+.pricing-main:hover .pricing-plan {
+    background: #7432ff;
+    transform: translateY(-70px);
+}
+.pricing-main:hover .pricing-plan h4,
+.pricing-main:hover .pricing-plan h6,
+.pricing-main:hover .pricing-plan p,
+.pricing-main:hover .pricing-plan ul,
+.pricing-main:hover .pricing-plan li,
+.pricing-main:hover .pricing-plan span {
+    color: #fff !important;
+}
+.pricing-main .btn-primary:hover {
+    color: #fff;
+    background-color: #7432ff !important;
+    border-color: #ffffff !important;
+    border: 1px solid #fff;
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgb(116 50 255) !important;
+}
+
+.pricing-main:hover .pricing-plan .pricingBtn {
+    border: 1px solid #fff;
+}
+
+.pricingBtnMain .active {
+    background: #fff;
+    color: #7432ff;
+}
+
+.pricing-plan {
+    padding: 50px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px #7432ff;
+    transition: all linear 0.4s;
+}
+.pricing-plan h6 {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.pricing-plan h4 {
+    color: #000;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+}
+.pricing-plan p {
+    margin-top: 13px;
+    color: #7432ff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+}
+
+.pricing-plan p span {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 53px;
+    margin-left: 10px;
+}
+.pricing-plan ul li {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+}
+.pricing-plan .checkMark {
+    margin-right: 10px;
+}
+
+.pricingBtn {
+    padding: 16px 39px;
+    background: #7432ff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+.pricing-main .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent !important;
+    background-clip: border-box;
+    border: 0 !important;
+    border-radius: 0 !important;
+}

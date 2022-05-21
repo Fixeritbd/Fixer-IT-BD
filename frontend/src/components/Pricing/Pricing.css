@@ -54,7 +54,37 @@
     box-shadow: none;
 }
 .pricing-main {
-    margin-top: 40px;
+    margin-top: 80px;
+}
+.pricing-main:hover .pricing-plan {
+    background: #7432ff;
+    transform: translateY(-70px);
+}
+.pricing-main:hover .pricing-plan h4,
+.pricing-main:hover .pricing-plan h6,
+.pricing-main:hover .pricing-plan p,
+.pricing-main:hover .pricing-plan ul,
+.pricing-main:hover .pricing-plan li,
+.pricing-main:hover .pricing-plan span {
+    color: #fff !important;
+}
+.pricing-main .btn-primary:hover {
+    color: #fff;
+    background-color: #7432ff !important;
+    border-color: #ffffff !important;
+    border: 1px solid #fff;
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgb(116 50 255) !important;
+}
+
+.pricing-main:hover .pricing-plan .pricingBtn {
+    border: 1px solid #fff;
 }
 
 .pricingBtnMain .active {
@@ -67,6 +97,7 @@
     background: #fff;
     border-radius: 25px;
     box-shadow: 0px 4px 4px #7432ff;
+    transition: all linear 0.4s;
 }
 .pricing-plan h6 {
     color: #000;

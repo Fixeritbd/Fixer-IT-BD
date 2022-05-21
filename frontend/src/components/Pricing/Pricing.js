@@ -46,7 +46,7 @@ export default function Pricing() {
                     <Col lg={4}>
                         <div className="pricing-main">
                             <Card style={{ width: '25rem' }}>
-                                <div class="pricing-plan">
+                                <div class="pricing-plan active">
                                     <h4>Standard</h4>
                                     <h6 className='pricingSubheading'>Creative design, premium website</h6>
                                     <p>$2k.00<span>Pack</span>

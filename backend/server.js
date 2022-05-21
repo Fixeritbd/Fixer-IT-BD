@@ -10,6 +10,7 @@ import aboutRouter from "./Route/AboutRouter.js";
 import bannerRouter from "./Route/BannerRouter.js";
 import featuredRouter from "./Route/featuredRouter.js";
 import startuprouter from "./Route/StartupRouter.js";
+import testimonialRoter from "./Route/TestimonilaRouter.js";
 
 app.use(cors());
 app.use(express.json());
@@ -28,6 +29,7 @@ app.use("/about", aboutRouter);
 app.use("/banner", bannerRouter);
 app.use("/startup", startuprouter);
 app.use("/featured", featuredRouter);
+app.use("/testimonial", testimonialRoter);
 
 app.get("/", function (req, res) {
   res.send("Hello World");

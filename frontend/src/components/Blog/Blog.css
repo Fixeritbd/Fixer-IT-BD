@@ -20,6 +20,7 @@
 }
 .cards {
   border-radius: 30px;
+  padding: 0px 0px 10px;
 }
 .card_img {
   border-top-left-radius: 20px;
@@ -37,7 +38,7 @@
 
 .paragraph p {
   color: #000;
-  padding: 0px 281px;
+  padding: 30px 281px;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
@@ -52,10 +53,10 @@
 }
 .btn_marketing {
   background: #7432ff;
-  padding: 4px 20px;
+  padding: 5px 22px;
   border: none !important;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   border-radius: 30px;

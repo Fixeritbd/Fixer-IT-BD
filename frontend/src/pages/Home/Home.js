@@ -22,6 +22,7 @@ function Home() {
       <Testimonial />
       <Blog />
       <Pricing />
+      <Testimonial />
       <Footer />
     </div>
   );

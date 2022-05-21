@@ -27,8 +27,8 @@
   border-top-right-radius: 20px;
 }
 
-.title .subheading h3 {
-  background: linear-gradient(to right, #5b65fc 0%, #d65787 25%);
+.title h3 {
+  background: linear-gradient(to right, #5b65fc 0%, #d65787 83%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

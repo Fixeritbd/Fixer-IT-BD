@@ -58,7 +58,7 @@
 }
 .pricing-main:hover .pricing-plan {
     background: #7432ff;
-    transform: translateY(-70px);
+    transform: translateY(-60px);
 }
 .pricing-main:hover .pricing-plan h4,
 .pricing-main:hover .pricing-plan h6,

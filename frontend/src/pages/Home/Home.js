@@ -17,11 +17,8 @@ function Home() {
       <Featured />
       <Startup />
       <VideoPart />
-<<<<<<< HEAD
       <Pricing />
-=======
       <Testimonial />
->>>>>>> 6e296d09b7639830eb06c956995eb75ad53a9aa6
     </div>
   );
 }

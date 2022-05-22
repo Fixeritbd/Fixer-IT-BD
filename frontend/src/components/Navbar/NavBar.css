@@ -43,7 +43,7 @@
     border-radius: 30px;
 }
 
-.nav-icon-main{
+.nav-icon-main {
     display: flex;
 }
 
@@ -57,6 +57,12 @@
     text-align: center;
     line-height: 50px;
     margin: 0 9px;
+    transition: all linear .4s;
+}
+
+.main_menu .nav_icon:hover {
+    background: #7432ff;
+    color: #fff;
 }
 
 .navbar-nav {

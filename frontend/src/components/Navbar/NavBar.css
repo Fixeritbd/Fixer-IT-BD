@@ -43,15 +43,20 @@
     border-radius: 30px;
 }
 
+.nav-icon-main{
+    display: flex;
+}
+
 .main_menu .nav_icon {
     color: #000;
-    font-size: 28px;
+    font-size: 20px;
     background: #ecf2f6;
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     text-align: center;
-    line-height: 63px;
+    line-height: 50px;
+    margin: 0 9px;
 }
 
 .navbar-nav {

@@ -24,7 +24,6 @@ function Home() {
       <FAQ/>
       <Blog />
       <Pricing />
-      <Testimonial />
       <Footer />
     </div>
   );

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import '../../main.css'
-import { Container, Navbar, Nav, Button, NavDropdown, Form } from 'react-bootstrap'
-import { FaBars } from 'react-icons/fa';
+import { Container, Navbar, Nav, Button, NavDropdown } from 'react-bootstrap'
+import { FiSettings } from 'react-icons/fi';
+import { BsQuestionCircle } from 'react-icons/bs';
 import './NavBar.css'
 import axios from 'axios'
 
@@ -56,8 +57,13 @@ function NavBar() {
                                 <Button className='register_btn'>Sign Up</Button>
                             </Nav.Link>
                             <Nav.Link>
-                                <div className="nav_icon">
-                                    <FaBars />
+                                <div className="nav-icon-main">
+                                    <div className="nav_icon">
+                                        <FiSettings />
+                                    </div>
+                                    <div className="nav_icon">
+                                        <BsQuestionCircle />
+                                    </div>
                                 </div>
                             </Nav.Link>
                         </Nav>

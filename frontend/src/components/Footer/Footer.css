@@ -49,7 +49,7 @@
   font-weight: 400;
   border-radius: 40px;
   width: 200px;
-  background: #5b65fc;
+  background: #7432ff;
   color: #fff;
   border: none;
   margin-left: -90px;
@@ -73,7 +73,7 @@
 .footer-icon ul li a {
   width: 50px;
   height: 50px;
-  background: #5b65fc;
+  background: #7432ff;
   line-height: 50px;
   text-align: center;
   border-radius: 50%;
@@ -87,7 +87,7 @@
 }
 
 .footer-part .footer-text h3 {
-  color: #5b65fc;
+  color: #7432ff;
   font-size: 30px;
   position: relative;
   margin-bottom: 30px;
@@ -109,7 +109,7 @@
 }
 
 .footer-part .footer-text .icon {
-  color: #5b65fc;
+  color: #7432ff;
   margin-right: 10px;
   transition: all linear 0.5s;
 }

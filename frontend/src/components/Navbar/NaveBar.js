@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import '../../main.css'
-import { Container, Navbar, Nav, Button, NavDropdown, Form } from 'react-bootstrap'
-import { FaBars } from 'react-icons/fa';
+import { Container, Navbar, Nav, Button, NavDropdown } from 'react-bootstrap'
+import { FiSettings } from 'react-icons/fi';
 import './NavBar.css'
 import axios from 'axios'
 
@@ -57,7 +57,7 @@ function NavBar() {
                             </Nav.Link>
                             <Nav.Link>
                                 <div className="nav_icon">
-                                    <FaBars />
+                                    <FiSettings />
                                 </div>
                             </Nav.Link>
                         </Nav>
